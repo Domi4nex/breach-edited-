@@ -361,4 +361,4 @@ lang.ZEUS_EXP = {
 	instructions = "PROTOTYPE",
 }
 
-WEPLANG.english = lang
+WEPLANG.french= lang
