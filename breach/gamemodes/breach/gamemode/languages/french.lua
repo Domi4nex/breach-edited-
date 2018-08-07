@@ -1,371 +1,372 @@
-english = {}
+français = {}
 
-english.roundtype = "Round type: {type}"
-english.preparing = "Prepare, round will start in {num} seconds"
-english.round = "Game is live, good luck!"
-english.specialround = "This is special round"
+english.roundtype = "Type rond: {type}"
+french.preparing = "Préparez-vous, le tour commencera en {num} secondes"
+english.round = "Le jeu est en direct, bonne chance!"
+english.specialround = "Ceci est un tour spécial"
 
-english.lang_pldied = "{num} player(s) died"
-english.lang_descaped = "{num} Class D(s) escaped"
-english.lang_sescaped = "{num} SCP(s) escaped"
-english.lang_rescaped = "{num} Researcher(s) escaped"
-english.lang_dcaptured = "Chaos Insurgency captured {num} Class D(s)"
-english.lang_rescorted = "MTF escorted {num} Researcher(s)"
-english.lang_teleported = "SCP - 106 caputred {num} victim(s) to the Pocket Dimension "
-english.lang_snapped = "{num} neck(s) were snapped by SCP173"
-english.lang_zombies = 'SCP - 049 "cured the disease" {num} time(s) '
-english.lang_secret_found = "Secret has been found"
-english.lang_secret_nfound = "Secret has not been found"
+english.lang_pldied = "{num} joueur (s) est mort (s)"
+english.lang_descaped = "{num} Classe D (s) échappée"
+english.lang_sescaped = "{num} SCP (s) échappé (s)"
+english.lang_rescaped = "{num} Chercheur (s) échappé (s)"
+english.lang_dcaptured = "Insurrection du chaos capturée {num} Classe D (s)"
+english.lang_rescorted = "MTF escorté {num} Chercheur (s)"
+english.lang_teleported = "SCP - 106 {num} victime (s) de la dimension de poche"
+english.lang_snapped = "{num} neck (s) ont été capturés par SCP173"
+english.lang_zombies = 'SCP - 049 "a guéri la maladie" {num} time (s) "
+english.lang_secret_found = "Le secret a été trouvé"
+english.lang_secret_nfound = "Le secret n'a pas été trouvé"
 
-english.class_unknown = "Unknown"
+english.class_unknown = "Inconnu"
 
-english.votefail = "You already voted or you are not allowed to vote!"
-english.votepunish = "Vote for punish or forgive %s"
+english.votefail = "Vous avez déjà voté ou vous n'êtes pas autorisé à voter!"
+english.votepunish = "Votez pour punir ou pardonner% s"
 english.voterules = [[
-	Write !punish to punish player or !forgive to forgive him
-	The victim vote = 5 votes
-	Normal player vote = 1 vote
-	Additional 3 votes are calculated from spectators average votes
-	Remember you can vote only once!
+Ecrire! Punir pour punir le joueur ou! Pardonner de lui pardonner
+Le vote de la victime = 5 votes
+Vote joueur normal = 1 vote
+3 votes supplémentaires sont calculés à partir des votes moyens des spectateurs
+N'oubliez pas que vous ne pouvez voter qu'une seule fois!
 ]]
 english.punish = "PUNISH"
 english.forgive = "FORGIVE"
-english.voteresult = "Voting result against %s is... %s"
-english.votes = "From %s players %s voted for punish and %s for forgive"
-english.votecancel = "Last punish vote was canceled by admin"
+english.voteresult = "Le résultat du vote par rapport à% s est ...% s"
+english.votes = "De% s joueurs ont voté pour punir et% s pour pardonner"
+english.votecancel = "Le dernier vote puni a été annulé par admin"
 
 english.eq_tip = "LMB - Select | RMB - Drop"
-english.eq_open = "Press 'Q' to open new EQ!"
+english.eq_open = "Appuyez sur 'Q' pour ouvrir un nouvel EQ!"
 
 english.starttexts = {
-	ROLE_SCPSantaJ = {
-		"You are the SCP-SANTA-J",
-		{"Your objective is to escape the facility",
-		"You are Santa Claus! Give gifts to everyone!",
-		"Merry Christmas and Happy New Year",
-		"This is special SCP available only in Christmas event!"}
+ROLE_SCPSantaJ = {
+"Vous êtes le SCP-SANTA-J",
+{"Votre objectif est d'échapper à l'installation",
+"Vous êtes le Père Noël! Offrez des cadeaux à tous!"
+"Joyeux Noel et bonne année",
+"Ceci est un SCP spécial disponible uniquement pour les événements de Noël!"}
+},
+ROLE_SCP173 = {
+"Vous êtes le SCP-173",
+{"Votre objectif est d'échapper à l'installation",
+"Vous ne pouvez pas bouger quand quelqu'un vous regarde",
+"Rappelez-vous, les humains clignotent",
+"Vous avez une capacité spéciale sur le RMB: aveugle tout le monde autour de vous"}
+},
+ROLE_SCP096 = {
+"Vous êtes le SCP-096",
+{"Votre objectif est d'échapper à l'installation",
+"Vous bougez extrêmement vite quand quelqu'un regarde",
+"Vous pouvez crier en utilisant RMB"}
+},
+ROLE_SCP066 = {
+"Vous êtes le SCP-066",
+{"Votre objectif est d'échapper à l'installation",
+"Vous pouvez jouer un son très fort",
+"LMB - attaque, RMB - vous pouvez détruire des fenêtres"}
+},
+ROLE_SCP106 = {
+"Vous êtes le SCP-106",
+{"Votre objectif est d'échapper à l'installation",
+"Lorsque vous touchez quelqu'un, ils se téléporteront",
+"à votre dimension de poche"}
+},
+ROLE_SCP966 = {
+"Vous êtes le SCP-966",
+{"Votre objectif est d'échapper à l'installation",
+"Vous êtes invisible, les humains ne peuvent que vous voir en utilisant un nvg",
+"Tu blesses les humains quand tu es près d'eux",
+"Vous les désorientez aussi"}
+},
+ROLE_SCP682 = {
+"Vous êtes le SCP-682",
+{"Votre objectif est d'échapper à l'installation",
+"Vous êtes un reptile difficile à détruire",
+"Vous tuez les gens instantanément, même si vous êtes très lent",
+"Vous avez une capacité spéciale sur le RMB"}
+},
+ROLE_SCP457 = {
+"Vous êtes le SCP-457",
+{"Votre objectif est de vous échapper alors facilité",
+"Vous brûlez toujours",
+"Si vous êtes assez proche d'un humain, vous le brûlerez"}
+},
+ROLE_SCP049 = {
+"Vous êtes le SCP-049",
+{"Votre objectif est d'échapper à l'installation",
+"Si vous utilisez votre capacité spéciale sur quelqu'un, ils deviendront SCP-049-2"}
+},
+ROLE_SCP689 = {
+"Vous êtes le SCP-689",
+{"Votre objectif est d'échapper à l'installation",
+"Vous êtes extrêmement lent, mais aussi mortel",
+"Tu peux tuer quiconque te regarde",
+"Après avoir tué quelqu'un, vous apparaissez sur le corps",
+"LMB - attack, RMB - détruire les fenêtres"}
+},
+ROLE_SCP939 = {
+"Vous êtes le SCP-939",
+{"Votre objectif est d'échapper à l'installation",
+"Vous êtes rapide et fort",
+"Vous pouvez tromper vos cibles en parlant dans leur chat vocal",
+"LMB - attack, RMB - changer le chat vocal"}
+},
+ROLE_SCP999 = {
+"Vous êtes le SCP-999",
+{"Votre objectif est d'échapper à l'installation",
+"Vous pouvez soigner qui vous voulez",
+"Vous devez coopérer avec d’autres membres du personnel ou avec des SCP"}
+},
+ROLE_SCP082 = {
+"Vous êtes le SCP-082",
+{"Votre objectif est d'échapper à l'installation",
+"Vous êtes un cannibale avec une machette",
+"Vos attaques réduisent l'endurance de votre cible",
+"Quand vous tuez quelqu'un, vous gagnerez de la santé"}
+},
+ROLE_SCP023 = {
+"Vous êtes le SCP-023",
+{"Votre objectif est d'échapper à l'installation",
+"Vous êtes un loup et vous allumez tous ceux qui vous traversent",
+"Enflammer les autres régénère votre santé",
+"LMB - attaque, RMB - vous gagnez de la vitesse mais vous perdez de la santé"}
+},
+ROLE_SCP1471 = {
+"Vous êtes le SCP-1471-A",
+{"Votre objectif est d'échapper à l'installation",
+"Vous pouvez vous téléporter à votre cible",
+"LMB - attack, RMB - téléportation vers votre cible"}
+},
+ROLE_SCP1048A = {
+"Vous êtes le SCP-1048-A",
+{"Votre objectif est d'échapper à l'installation",
+"Vous ressemblez à SCP-1048, mais vous êtes entièrement fabriqué avec des oreilles humaines",
+"
+		"Vous émettez un cri très fort"}
 	},
-	ROLE_SCP173 = {
-		"You are the SCP-173",
-		{"Your objective is to escape the facility",
-		"You cannot move when someone is looking at you",
-		"Remember, humans are blinking",
-		"You have a special ability on RMB: blind everyone around you"}
-	},
-	ROLE_SCP096 = {
-		"You are the SCP-096",
-		{"Your objective is to escape the facility",
-		"You move extremely fast when somebody is looking",
-		"You can scream by using RMB"}
-	},
-	ROLE_SCP066 = {
-		"You are the SCP-066",
-		{"Your objective is to escape the facility",
-		"You can play VERY loud sound",
-		"LMB - attack, RMB - you can destroy windows"}
-	},
-	ROLE_SCP106 = {
-		"You are the SCP-106",
-		{"Your objective is to escape the facility",
-		"When you touch someone, they will teleport",
-		"to your pocket dimension"}
-	},
-	ROLE_SCP966 = {
-		"You are the SCP-966",
-		{"Your objective is to escape the facility",
-		"You are invisible, humans can only see you using a nvg",
-		"You hurt humans when you are near them",
-		"You also disorientate them"}
-	},
-	ROLE_SCP682 = {
-		"You are the SCP-682",
-		{"Your objective is to escape the facility",
-		"You are a Hard-to-Destroy Reptile",
-		"You kill people instantly, although you are very slow",
-		"You have a special ability on RMB"}
-	},
-	ROLE_SCP457 = {
-		"You are the SCP-457",
-		{"Your objective is to escape then facility",
-		"You are always burning",
-		"If you are close enough to a human, you will burn them"}
-	},
-	ROLE_SCP049 = {
-		"You are the SCP-049",
-		{"Your objective is to escape the facility",
-		"If you use your special ability on someone, they will become SCP-049-2"}
-	},
-	ROLE_SCP689 = {
-		"You are the SCP-689",
-		{"Your objective is to escape the facility",
-		"You are extremly slow, but also deadly",
-		"You can kill anyone who look at you",
-		"After you kill someone, you appear on the body",
-		"LMB - attack, RMB - destroy windows"}
-	},
-	ROLE_SCP939 = {
-		"You are the SCP-939",
-		{"Your objective is to escape the facility",
-		"Your are fast and strong",
-		"You can deceive your targets by talking in their voice chat",
-		"LMB - attack, RMB - change voice chat"}
-	},
-	ROLE_SCP999 = {
-		"You are the SCP-999",
-		{"Your objective is to escape the facility",
-		"You can heal anybody you want",
-		"You have to co-operate with other personnel or SCPs"}
-	},
-	ROLE_SCP082 = {
-		"You are the SCP-082",
-		{"Your objective is to escape the facility",
-		"You are a cannibal with a machete",
-		"Your attacks reduces your target's stamina",
-		"When you kill somebody you will gain health"}
-	},
-	ROLE_SCP023 = {
-		"You are the SCP-023",
-		{"Your objective is to escape the facility",
-		"You are a wolf and you ignite everyone who goes through you",
-		"Igniting others regenerate your health",
-		"LMB - attack, RMB - you gain speed but you lose heath"}
-	},
-	ROLE_SCP1471 = {
-		"You are the SCP-1471-A",
-		{"Your objective is to escape the facility",
-		"You can teleport yourself to your target",
-		"LMB - attack, RMB - teleport to your target"}
-	},
-	ROLE_SCP1048A = {
-		"You are the SCP-1048-A",
-		{"Your objective is to escape the facility",
-		"You look like SCP-1048, but you are made entirely out of human ears",
-		"You emit a very loud scream"}
-	},
-	ROLE_SCP1048B = {
-		"You are the SCP-1048-B",
-		{"Your objective is to escape the facility",
-		"Kill'em all"}
-	},
-	ROLE_SCP8602 = {
-		"You are the SCP-860-2",
-		{"Your objective is to escape the facility",
-		"You are forest monster",
-		"When you attack somebody near wall you charging on him"}
-	},
-	ROLE_SCP0492 = {
-		"You are the SCP-049-2",
-		{"Your objective is to escape the facility",
-		"Cooperate with SCP-049 to kill more people"}
-	},
-	ROLE_SCP076 = {
-		"You are the SCP-076-2",
-		{"Your objective is to escape the facility",
-		"You are fast and you have low HP",
-		"You will be respawning until somebody destroy SCP-076-1"}
-	},
-	ROLE_SCP957 = {
-		"You are the SCP-957",
-		{"Your objective is to escape the facility",
-		"You receive less damage, but on SCP-957-1 death you will receive damage",
-		"Use LMB to deal AOE damage",
-		"After attack, you and SCP-957-1 will receive some health"}
-	},
-	ROLE_SCP9571 = {
-		"You are the SCP-957-1",
-		{"Your objective is bring your friends to SCP-957",
-		"Your vision is limited and you can talk with SCP-957",
-		"Nobody knows that you are SCP, don't get exposed",
-		"If you die, SCP-957 will receive damage"}
-	},
-	ROLE_SCP0082 = {
-		"You are the SCP-008-2",
-		{"Your objective is to infect every MTF and D",
-		"If you kill someone, they will become 008-2 aswell"}
-	},
-	ROLE_RES = {
-		"You are a Researcher",
-		{"Your objective is to escape from the facility",
-		"You need to find a MTF Guard that will help you",
-		"Be on the look out of Class Ds as they might try to kill you"}
-	},
-	ROLE_MEDIC = {
-		"You are a Medic",
-		{"Your objective is to escape from the facility",
-		"You need to find a MTF Guards that will help you",
-		"Be on the look out of Class Ds as they might try to kill you",
-		"If someone gets injured, heal them"}
-	},
-	ROLE_NO3 = {
-		"You are a Level 3 Researcher",
-		{"Your objective is to escape from the facility",
-		"You know this place as nobody else",
-		"Be on the look out of Class Ds as they might try to kill you",
-		"You can communicate with security using the radio"}
-	},
-	ROLE_CLASSD = {
-		"You are a Class D",
-		{"Your objective is to escape from the facility",
-		"You need to cooperate with other Class Ds",
-		"Search for keycards and be aware of MTF and SCPs"}
-	},
-	ROLE_VETERAN = {
-		"You are a Veteran Class D",
-		{"Your objective is to escape from the facility",
-		"You need to cooperate with other Class Ds",
-		"Search for keycards and be aware of MTF and SCPs"}
-	},
-	ROLE_CIC = {
-		"You are a Chaos Insurgency Agent",
-		{"Your objective is to help Class D",
-		"You organize them",
-		"Be aware of MTF and SCPs, and wait for support"}
-	},
-	ROLE_SECURITY = {
-		"You are a Security Officer",
-		{"Your objective is to find and rescue all",
-		"of the researchers that are still in the facility",
-		"You have to kill any Class D or SCP that you will find",
-		"Listen to your boss's orders and stick to your team"}
-	},
-	ROLE_CSECURITY = {
-		"You are a Security Chief",
-		{"Your objective is to find and rescue all",
-		"of the researchers that are still in the facility",
-		"You have to kill any Class D or SCP that you will find",
-		"Give orders to Security Officers and listen to your boss"}
-	},
-	ROLE_MTFGUARD = {
-		"You are a MTF Guard",
-		{"Your objective is to find and rescue all",
-		"of the researchers that are still in the facility",
-		"You have to kill any Class D or SCP that you will find",
-		"Listen to MTF Commander's orders and stick to your team"}
-	},
-	ROLE_MTFMEDIC = {
-		"You are a MTF Medic",
-		{"Your objective is support your teammates",
-		"If someone gets injured, heal them",
-		"Listen to MTF Commander's orders and stick to your team"}
-	},
-	ROLE_HAZMAT = {
-		"You are a Special MTF Unit",
-		{"Your objective is to find and rescue all",
-		"of the researchers that are still in the facility",
-		"You have to kill any Class Ds or SCPs that you will find",
-		"Listen to the MTF Commander and Site Director"}
-	},
-	ROLE_MTFL = {
-		"You are a MTF Lieutenant",
-		{"Your objective is to find and rescue all",
-		"of the researchers that are still in the facility",
-		"You have to kill any Class Ds or SCPs that you will find",
-		"Give orders to Guards to simplify the task",
-		"Listen to the MTF Commander and Site Director"}
-	},
-	ROLE_SD = {
-		"You are a Site Director",
-		{"Your objective is to give objectives",
-		"You need to give objectives to the site security",
-		"You need to keep the site secure, don't let any SCP or Class D escape"}
-	},
-	ROLE_O5 = {
-		"You are O5 Council Member",
-		{"Your have unlimited access to everything",
-		"You are the most important person here, give orders",
-		"Do everything what you can to save foundation reputation and world"}
-	},
-	ROLE_MTFNTF = {
-		"You are a MTF Unit Nine-Tailed Fox",
-		{"Your objective is to find and rescue all",
-		"of the researchers that are still in the facility",
-		"You have to kill any Class D or SCP that you will find",
-		"Go to the facility and help Guards to embrace a chaos"}
-	},
-	ROLE_MTFCOM = {
-		"You are a MTF Commander",
-		{"Your objective is to find and rescue all",
-		"of the researchers that are still in the facility",
-		"You have to kill any Class Ds or SCPs that you will find",
-		"Give orders to Guards to simplify the task"}
-	},
-	ROLE_CHAOS = {
-		"You are the Chaos Insurgency Soldier",
-		{"Your objective is to capture as much Class Ds as it is possible",
-		"Escort them to the helipad outisde of the facility",
-		"You have to kill anyone who will stop you"}
-	},
-	ROLE_CHAOSSPY = {
-		"You are the Chaos Insurgency Spy",
-		{"Your objective is to kill all MTF Guards and capture the Class D",
-		"They are unaware of your disguise",
-		"Don't destroy your disguise",
-		"If you find any class ds, try to escort them to the helipad"}
-	},
-	ROLE_CHAOSCOM = {
-		"You are the Chaos Insurgency Commander",
-		{"Your objective is to give objectives to your team",
-		"Kill anyone who will stop you"}
-	},
-	ROLE_SPEC = {
-		"You are a Spectator",
-		{'Use command "br_spectate" to come back'}
-	},
-	ADMIN = {
-		"You are in admin mode",
-		{'Use command "br_admin_mode" to come back in next round'}
-	},
-	ROLE_INFECTD = {
-		"You are Class D Presonnel",
-		{'This is special round "infect"',
-		"You need to cooperate with MTFs to stop the infection",
-		"When you will be killed by zombie you will be one of them"}
-	},
-	ROLE_INFECTMTF = {
-		"You are MTF",
-		{'This is special round "infect"',
-		"You need to cooperate with D Class to stop the infection",
-		"When you will be killed by zombie you will be one of them"}
-	},
+ROLE_SCP1048B = {
+"Vous êtes le SCP-1048-B",
+{"Votre objectif est d'échapper à l'installation",
+"Tue les tous"}
+},
+ROLE_SCP8602 = {
+"Vous êtes le SCP-860-2",
+{"Votre objectif est d'échapper à l'installation",
+"Vous êtes un monstre de la forêt",
+"Quand vous attaquez quelqu'un près du mur, vous le chargez"}
+},
+ROLE_SCP0492 = {
+"Vous êtes le SCP-049-2"
+{"Votre objectif est d'échapper à l'installation",
+"Coopérer avec SCP-049 pour tuer plus de gens"}
+},
+ROLE_SCP076 = {
+"Vous êtes le SCP-076-2",
+{"Votre objectif est d'échapper à l'installation",
+"Vous êtes rapide et vous avez un faible HP",
+"Vous allez respirer jusqu'à ce que quelqu'un détruise SCP-076-1"}
+},
+ROLE_SCP957 = {
+"Vous êtes le SCP-957",
+{"Votre objectif est d'échapper à l'installation",
+"Vous recevez moins de dégâts, mais à la mort de SCP-957-1, vous recevrez des dégâts",
+"Utiliser LMB pour infliger des dégâts AOE",
+"Après l'attaque, vous et SCP-957-1 recevrez un peu de santé"}
+},
+ROLE_SCP9571 = {
+"Vous êtes le SCP-957-1",
+{"Votre objectif est d'amener vos amis à SCP-957",
+"Votre vision est limitée et vous pouvez parler avec SCP-957",
+"Personne ne sait que vous êtes SCP, ne soyez pas exposé",
+"Si vous mourrez, SCP-957 recevra des dégâts"}
+},
+ROLE_SCP0082 = {
+"Vous êtes le SCP-008-2",
+{"Votre objectif est d'infecter tous les MTF et D",
+"Si vous tuez quelqu'un, ils deviendront aussi 008-2"}
+},
+ROLE_RES = {
+"Vous êtes un chercheur",
+{"Votre objectif est de s'échapper de l'installation",
+"Vous devez trouver une garde MTF qui vous aidera",
+"Soyez à l'affût de la classe D car ils pourraient essayer de vous tuer"}
+},
+ROLE_MEDIC = {
+"Vous êtes un Medic",
+{"Votre objectif est de s'échapper de l'installation",
+"Vous devez trouver un garde de MTF qui vous aidera",
+"Soyez à l'affût de la classe D car ils pourraient essayer de vous tuer",
+"Si quelqu'un se blesse, guéris-le"}
+},
+ROLE_NO3 = {
+"Vous êtes un chercheur de niveau 3",
+{"Votre objectif est de s'échapper de l'installation",
+"Vous connaissez cet endroit comme personne d'autre",
+"Soyez à l'affût de la classe D car ils pourraient essayer de vous tuer",
+"Vous pouvez communiquer avec la sécurité en utilisant la radio"}
+},
+ROLE_CLASSD = {
+"Vous êtes une classe D",
+{"Votre objectif est de s'échapper de l'installation",
+"Vous devez coopérer avec d'autres classes D",
+Msgstr "Rechercher des cartes d’accès et être au courant des MTF et SCP"}
+},
+ROLE_VETERAN = {
+"Vous êtes un vétéran de classe D",
+{"Votre objectif est de s'échapper de l'installation",
+"Vous devez coopérer avec d'autres classes D",
+Msgstr "Rechercher des cartes d’accès et être au courant des MTF et SCP"}
+},
+ROLE_CIC = {
+"Vous êtes un agent d'insurrection du chaos",
+{"Votre objectif est d'aider la classe D",
+"Vous les organisez",
+"Soyez conscient du MTF et des SCP, et attendez le support"}
+},
+ROLE_SECURITY = {
+"Vous êtes un agent de sécurité",
+{"Votre objectif est de trouver et sauver tous",
+"des chercheurs qui sont encore dans l'installation",
+"Vous devez tuer toute classe D ou SCP que vous trouverez",
+"Écoutez les ordres de votre patron et respectez votre équipe"}
+},
+ROLE_CSECURITY = {
+"Vous êtes un chef de la sécurité",
+{"Votre objectif est de trouver et sauver tous",
+"des chercheurs qui sont encore dans l'installation",
+"Vous devez tuer toute classe D ou SCP que vous trouverez",
+"Donnez des ordres aux agents de sécurité et écoutez votre patron"}
+},
+ROLE_MTFGUARD = {
+"Vous êtes un garde MTF",
+{"Votre objectif est de trouver et sauver tous",
+"des chercheurs qui sont encore dans l'installation",
+"Vous devez tuer toute classe D ou SCP que vous trouverez",
+"Écoutez les ordres du commandant de la MTF et respectez votre équipe"}
+},
+ROLE_MTFMEDIC = {
+"Vous êtes un Medic MTF",
+{"Votre objectif est de soutenir vos coéquipiers",
+"Si quelqu'un se blesse, guéris-le",
+"Écoutez les ordres du commandant de la MTF et respectez votre équipe"}
+},
+ROLE_HAZMAT = {
+"Vous êtes une unité spéciale MTF",
+{"Votre objectif est de trouver et sauver tous",
+"des chercheurs qui sont encore dans l'installation",
+"Vous devez tuer toute classe D ou SCP que vous trouverez",
+"Ecoutez le commandant de la MTF et le directeur du site"}
+},
+ROLE_MTFL = {
+"Vous êtes un lieutenant MTF",
+{"Votre objectif est de trouver et sauver tous",
+"des chercheurs qui sont encore dans l'installation",
+"Vous devez tuer toute classe D ou SCP que vous trouverez",
+"Donner des ordres aux gardes pour simplifier la tâche",
+"Ecoutez le commandant de la MTF et le directeur du site"}
+},
+ROLE_SD = {
+"Vous êtes directeur de site",
+{"Votre objectif est de donner des objectifs",
+"Vous devez donner des objectifs à la sécurité du site",
+"Vous devez garder le site sécurisé, ne laissez échapper aucun SCP ou Classe D"}
+},
+ROLE_O5 = {
+"Vous êtes membre du conseil de l'O5",
+{"Vous avez un accès illimité à tout",
+"Vous êtes la personne la plus importante ici, donnez des ordres",
+"Faites tout ce que vous pouvez pour sauver la réputation et le monde de la fondation"}
+},
+ROLE_MTFNTF = {
+"Vous êtes une unité MTF à neuf queues de renard",
+{"Votre objectif est de trouver et sauver tous",
+"des chercheurs qui sont encore dans l'installation",
+"Vous devez tuer toute classe D ou SCP que vous trouverez",
+"Allez à l'installation et aidez les gardes à embrasser un chaos"}
+},
+ROLE_MTFCOM = {
+"Vous êtes un commandant de la MTF",
+{"Votre objective is to find and rescue all",
+		"des chercheurs qui sont encore dans l'installation",
+"Vous devez tuer toute classe D ou SCP que vous trouverez",
+"Donner des ordres aux gardes pour simplifier la tâche"}
+},
+ROLE_CHAOS = {
+"Vous êtes le soldat de l'insurrection du chaos",
+{"Votre objectif est de capturer autant de classe D que possible",
+"Escorte-les à la sortie de l'hélipad de l'installation",
+"Tu dois tuer quelqu'un qui va t'arrêter"}
+},
+ROLE_CHAOSSPY = {
+"Vous êtes le Spy du Chaos Insurgency",
+{"Votre objectif est de tuer tous les gardes MTF et de capturer la classe D",
+"Ils ne sont pas au courant de votre déguisement",
+"Ne détruis pas ton déguisement",
+"Si vous trouvez une classe ds, essayez de les escorter jusqu'à l'hélipad"}
+},
+ROLE_CHAOSCOM = {
+"Vous êtes le commandant de l'insurrection du chaos",
+{"Votre objectif est de donner des objectifs à votre équipe",
+"Tuez quiconque vous arrêtera"}
+},
+ROLE_SPEC = {
+"Vous êtes un spectateur",
+{'Utiliser la commande "br_spectate" pour revenir "}
+},
+ADMIN = {
+"Vous êtes en mode admin",
+{'Utilisez la commande "br_admin_mode" pour revenir au prochain tour'}
+},
+ROLE_INFECTD = {
+"Vous êtes de classe D Presonnel",
+{'Ceci est un tour spécial "infecter"',
+"Vous devez coopérer avec les MTF pour arrêter l'infection",
+"Quand vous serez tué par un zombie, vous serez l'un d'entre eux"}
+},
+ROLE_INFECTMTF = {
+"Vous êtes MTF",
+{'Ceci est un tour spécial "infecter"',
+"Vous devez coopérer avec D Class pour arrêter l'infection",
+"Quand vous serez tué par un zombie, vous serez l'un d'entre eux"}
+},
 }
 
-english.lang_end1 = "The game ends here"
-english.lang_end2 = "Time limit has been reached"
-english.lang_end3 = "Game ended due to the inability to continue"
+english.lang_end1 = "Le jeu se termine ici"
+english.lang_end2 = "Le délai a été atteint"
+english.lang_end3 = "Le jeu s'est terminé en raison de l'impossibilité de continuer"
 
 english.escapemessages = {
-	{
-		main = "You escaped",
-		txt = "You escaped the facility in {t} minutes, good job!",
-		txt2 = "Try to get escorted by MTF next time to get bonus points.",
-		clr = Color(237, 28, 63),
-	},
-	{
-		main = "You escaped",
-		txt = "You escaped the facility in {t} minutes, good job!",
-		txt2 = "Try to get escorted by Chaos Insurgency Soldiers next time to get bonus points.",
-		clr = Color(237, 28, 63),
-	},
-	{
-		main = "You were escorted",
-		txt = "You were escorted in {t} minutes, good job!",
-		txt2 = "",
-		clr = Color(237, 28, 63),
-	},
-	{
-		main = "You escaped",
-		txt = "You escaped in {t} minutes, good job!",
-		txt2 = "",
-		clr = Color(237, 28, 63),
-	}
+{
+main = "Vous vous êtes échappé",
+txt = "Vous avez échappé à l'installation en {t} minutes, bon travail!",
+txt2 = "Essayez d’être escorté par MTF la prochaine fois pour obtenir des points bonus.",
+clr = Couleur (237, 28, 63),
+},
+{
+main = "Vous vous êtes échappé",
+txt = "Vous avez échappé à l'installation en {t} minutes, bon travail!",
+txt2 = "Essayez de vous faire escorter par des soldats de l’insurrection du chaos la prochaine fois pour obtenir des points bonus.",
+clr = Couleur (237, 28, 63),
+},
+{
+main = "Vous avez été escorté",
+txt = "Vous avez été escorté en {t} minutes, bon travail!",
+txt2 = "",
+clr = Couleur (237, 28, 63),
+},
+{
+main = "Vous vous êtes échappé",
+txt = "Vous vous êtes échappé en {t} minutes, bon travail!",
+txt2 = "",
+clr = Couleur (237, 28, 63),
+}
 }
 
 
 
 english.ROLES = {}
 
-english.ROLES.ADMIN = "ADMIN MODE"
-english.ROLES.ROLE_INFECTD = "Class D Personnel"
+english.ROLES.ADMIN = "MODE ADMIN"
+english.ROLES.ROLE_INFECTD = "Personnel de classe D"
 english.ROLES.ROLE_INFECTMTF = "MTF"
 
 english.ROLES.ROLE_SCPSantaJ = "SCP-SANTA-J"
@@ -392,46 +393,46 @@ english.ROLES.ROLE_SCP0082 = "SCP-008-2"
 english.ROLES.ROLE_SCP957 = "SCP-957"
 english.ROLES.ROLE_SCP9571 = "SCP-957-1"
 
-english.ROLES.ROLE_RES = "Researcher"
+english.ROLES.ROLE_RES = "Chercheur"
 english.ROLES.ROLE_MEDIC = "Medic"
-english.ROLES.ROLE_NO3 = "Level 3 Researcher"
+english.ROLES.ROLE_NO3 = "Chercheur de niveau 3"
 
-english.ROLES.ROLE_CLASSD = "Class D Personnel"
-english.ROLES.ROLE_VETERAN = "Class D Veteran"
-english.ROLES.ROLE_CIC = "CI Agent"
+english.ROLES.ROLE_CLASSD = "Personnel de classe D"
+english.ROLES.ROLE_VETERAN = "Ancien combattant de classe D"
+english.ROLES.ROLE_CIC = "Agent CI"
 
-english.ROLES.ROLE_SECURITY = "Security Officer"
-english.ROLES.ROLE_MTFGUARD = "MTF Guard"
-english.ROLES.ROLE_MTFMEDIC = "MTF Medic"
-english.ROLES.ROLE_MTFL = "MTF Lieutenant"
-english.ROLES.ROLE_HAZMAT = "MTF SCU"
+english.ROLES.ROLE_SECURITY = "Agent de sécurité"
+english.ROLES.ROLE_MTFGUARD = "Garde MTF"
+english.ROLES.ROLE_MTFMEDIC = "Medic MTF"
+english.ROLES.ROLE_MTFL = "Lieutenant MTF"
+english.ROLES.ROLE_HAZMAT = "SCF MTF"
 english.ROLES.ROLE_MTFNTF = "MTF NTF"
-english.ROLES.ROLE_CSECURITY = "Security Chief"
-english.ROLES.ROLE_MTFCOM = "MTF Commander"
-english.ROLES.ROLE_SD = "Site Director"
-english.ROLES.ROLE_O5 = "O5 Council Member"
+english.ROLES.ROLE_CSECURITY = "Chef de la sécurité"
+english.ROLES.ROLE_MTFCOM = "Commandant MTF"
+english.ROLES.ROLE_SD = "Directeur du site"
+english.ROLES.ROLE_O5 = "Membre du conseil O5"
 
-english.ROLES.ROLE_CHAOSSPY = "CI Spy"
-english.ROLES.ROLE_CHAOS = "CI Soldier"
-english.ROLES.ROLE_CHAOSCOM = "CI Commander"
-english.ROLES.ROLE_SPEC = "Spectator"
+english.ROLES.ROLE_CHAOSSPY = "Espion CI"
+english.ROLES.ROLE_CHAOS = "Soldat CI"
+english.ROLES.ROLE_CHAOSCOM = "Commandant CI"
+english.ROLES.ROLE_SPEC = "Spectateur"
 
-english.credits_orig = "Created by:"
-english.credits_edit = "Modified and repaired by:"
-english.settings = "Settings"
-english.updateinfo = "Show changes after update"
+english.credits_orig = "Créé par:"
+english.credits_edit = "Modifié et réparé par:"
+english.settings = "Paramètres"
+english.updateinfo = "Afficher les modifications après la mise à jour"
 english.done = "Ready"
-english.repe = "Write br_reset_intro to show intro again"
+english.repe = "Ecrivez br_reset_intro pour montrer l'intro"
 
-english.author = "Author"
+english.author = "Auteur"
 english.helper = "Assistant"
-english.originator = "Collaborator"
+english.originator = "Collaborateur"
 
 english.updates = {
-	"english",
-	"Update notes",
-	"Update notes of version %s are unavailable",
-	"Server version",
+"Anglais",
+"Notes de mise à jour",
+"Les notes de mise à jour de la version% s ne sont pas disponibles",
+"Version serveur",
 }
 
-ALLLANGUAGES.english = english
+ALLLANGUAGES.french = français
