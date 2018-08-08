@@ -1,43 +1,43 @@
 français = {}
 
-english.roundtype = "Type rond: {type}"
+french.roundtype = "Type rond: {type}"
 french.preparing = "Préparez-vous, le tour commencera en {num} secondes"
-english.round = "Le jeu est en direct, bonne chance!"
-english.specialround = "Ceci est un tour spécial"
+french.round = "Le jeu est en direct, bonne chance!"
+french.specialround = "Ceci est un tour spécial"
 
-english.lang_pldied = "{num} joueur (s) est mort (s)"
-english.lang_descaped = "{num} Classe D (s) échappée"
-english.lang_sescaped = "{num} SCP (s) échappé (s)"
-english.lang_rescaped = "{num} Chercheur (s) échappé (s)"
-english.lang_dcaptured = "Insurrection du chaos capturée {num} Classe D (s)"
-english.lang_rescorted = "MTF escorté {num} Chercheur (s)"
-english.lang_teleported = "SCP - 106 {num} victime (s) de la dimension de poche"
-english.lang_snapped = "{num} neck (s) ont été capturés par SCP173"
-english.lang_zombies = 'SCP - 049 "a guéri la maladie" {num} time (s) "
-english.lang_secret_found = "Le secret a été trouvé"
-english.lang_secret_nfound = "Le secret n'a pas été trouvé"
+french.lang_pldied = "{num} joueur (s) est mort (s)"
+french.lang_descaped = "{num} Classe D (s) échappée"
+french.lang_sescaped = "{num} SCP (s) échappé (s)"
+french.lang_rescaped = "{num} Chercheur (s) échappé (s)"
+french.lang_dcaptured = "Insurrection du chaos capturée {num} Classe D (s)"
+french.lang_rescorted = "MTF escorté {num} Chercheur (s)"
+french.lang_teleported = "SCP - 106 {num} victime (s) de la dimension de poche"
+french.lang_snapped = "{num} neck (s) ont été capturés par SCP173"
+french.lang_zombies = 'SCP - 049 "a guéri la maladie" {num} time (s) "
+french.lang_secret_found = "Le secret a été trouvé"
+french.lang_secret_nfound = "Le secret n'a pas été trouvé"
 
-english.class_unknown = "Inconnu"
+french.class_unknown = "Inconnu"
 
-english.votefail = "Vous avez déjà voté ou vous n'êtes pas autorisé à voter!"
-english.votepunish = "Votez pour punir ou pardonner% s"
-english.voterules = [[
+french.votefail = "Vous avez déjà voté ou vous n'êtes pas autorisé à voter!"
+french.votepunish = "Votez pour punir ou pardonner% s"
+french.voterules = [[
 Ecrire! Punir pour punir le joueur ou! Pardonner de lui pardonner
 Le vote de la victime = 5 votes
 Vote joueur normal = 1 vote
 3 votes supplémentaires sont calculés à partir des votes moyens des spectateurs
 N'oubliez pas que vous ne pouvez voter qu'une seule fois!
 ]]
-english.punish = "PUNISH"
-english.forgive = "FORGIVE"
-english.voteresult = "Le résultat du vote par rapport à% s est ...% s"
-english.votes = "De% s joueurs ont voté pour punir et% s pour pardonner"
-english.votecancel = "Le dernier vote puni a été annulé par admin"
+french.punish = "PUNISH"
+french.forgive = "FORGIVE"
+french.voteresult = "Le résultat du vote par rapport à% s est ...% s"
+french.votes = "De% s joueurs ont voté pour punir et% s pour pardonner"
+french.votecancel = "Le dernier vote puni a été annulé par admin"
 
-english.eq_tip = "LMB - Select | RMB - Drop"
-english.eq_open = "Appuyez sur 'Q' pour ouvrir un nouvel EQ!"
+french.eq_tip = "LMB - Select | RMB - Drop"
+french.eq_open = "Appuyez sur 'Q' pour ouvrir un nouvel EQ!"
 
-english.starttexts = {
+french.starttexts = {
 ROLE_SCPSantaJ = {
 "Vous êtes le SCP-SANTA-J",
 {"Votre objectif est d'échapper à l'installation",
@@ -330,11 +330,11 @@ ROLE_INFECTMTF = {
 },
 }
 
-english.lang_end1 = "Le jeu se termine ici"
-english.lang_end2 = "Le délai a été atteint"
-english.lang_end3 = "Le jeu s'est terminé en raison de l'impossibilité de continuer"
+french.lang_end1 = "Le jeu se termine ici"
+french.lang_end2 = "Le délai a été atteint"
+french.lang_end3 = "Le jeu s'est terminé en raison de l'impossibilité de continuer"
 
-english.escapemessages = {
+french.escapemessages = {
 {
 main = "Vous vous êtes échappé",
 txt = "Vous avez échappé à l'installation en {t} minutes, bon travail!",
@@ -363,22 +363,22 @@ clr = Couleur (237, 28, 63),
 
 
 
-english.ROLES = {}
+french.ROLES = {}
 
-english.ROLES.ADMIN = "MODE ADMIN"
-english.ROLES.ROLE_INFECTD = "Personnel de classe D"
-english.ROLES.ROLE_INFECTMTF = "MTF"
+french.ROLES.ADMIN = "MODE ADMIN"
+french.ROLES.ROLE_INFECTD = "Personnel de classe D"
+french.ROLES.ROLE_INFECTMTF = "MTF"
 
-english.ROLES.ROLE_SCPSantaJ = "SCP-SANTA-J"
-english.ROLES.ROLE_SCP173 = "SCP-173"
-english.ROLES.ROLE_SCP106 = "SCP-106"
-english.ROLES.ROLE_SCP049 = "SCP-049"
-english.ROLES.ROLE_SCP457 = "SCP-457"
-english.ROLES.ROLE_SCP966 = "SCP-966"
-english.ROLES.ROLE_SCP096 = "SCP-096"
-english.ROLES.ROLE_SCP066 = "SCP-066"
-english.ROLES.ROLE_SCP689 = "SCP-689"
-english.ROLES.ROLE_SCP682 = "SCP-682"
+french.ROLES.ROLE_SCPSantaJ = "SCP-SANTA-J"
+french.ROLES.ROLE_SCP173 = "SCP-173"
+french.ROLES.ROLE_SCP106 = "SCP-106"
+french.ROLES.ROLE_SCP049 = "SCP-049"
+french.ROLES.ROLE_SCP457 = "SCP-457"
+french.ROLES.ROLE_SCP966 = "SCP-966"
+french.ROLES.ROLE_SCP096 = "SCP-096"
+french.ROLES.ROLE_SCP066 = "SCP-066"
+french.ROLES.ROLE_SCP689 = "SCP-689"
+french.ROLES.ROLE_SCP682 = "SCP-682"
 english.ROLES.ROLE_SCP082 = "SCP-082"
 english.ROLES.ROLE_SCP939 = "SCP-939"
 english.ROLES.ROLE_SCP999 = "SCP-999"
@@ -388,47 +388,46 @@ english.ROLES.ROLE_SCP1471 = "SCP-1471-A"
 english.ROLES.ROLE_SCP8602 = "SCP-860-2"
 english.ROLES.ROLE_SCP1048A = "SCP-1048-A"
 english.ROLES.ROLE_SCP1048B = "SCP-1048-B"
-english.ROLES.ROLE_SCP0492 = "SCP-049-2"
-english.ROLES.ROLE_SCP0082 = "SCP-008-2"
-english.ROLES.ROLE_SCP957 = "SCP-957"
-english.ROLES.ROLE_SCP9571 = "SCP-957-1"
+french.ROLES.ROLE_SCP0492 = "SCP-049-2"
+french.ROLES.ROLE_SCP0082 = "SCP-008-2"
+french.ROLES.ROLE_SCP957 = "SCP-957"
+french.ROLES.ROLE_SCP9571 = "SCP-957-1"
 
-english.ROLES.ROLE_RES = "Chercheur"
-english.ROLES.ROLE_MEDIC = "Medic"
-english.ROLES.ROLE_NO3 = "Chercheur de niveau 3"
+french.ROLES.ROLE_RES = "Chercheur"
+french.ROLES.ROLE_MEDIC = "Medic"
+french.ROLES.ROLE_NO3 = "Chercheur de niveau 3"
 
-english.ROLES.ROLE_CLASSD = "Personnel de classe D"
-english.ROLES.ROLE_VETERAN = "Ancien combattant de classe D"
-english.ROLES.ROLE_CIC = "Agent CI"
+french.ROLES.ROLE_CLASSD = "Personnel de classe D"
+french.ROLES.ROLE_VETERAN = "Ancien combattant de classe D"
+french.ROLES.ROLE_CIC = "Agent CI"
+french.ROLES.ROLE_SECURITY = "Agent de sécurité"
+french.ROLES.ROLE_MTFGUARD = "Garde MTF"
+french.ROLES.ROLE_MTFMEDIC = "Medic MTF"
+french.ROLES.ROLE_MTFL = "Lieutenant MTF"
+french.ROLES.ROLE_HAZMAT = "SCF MTF"
+french.ROLES.ROLE_MTFNTF = "MTF NTF"
+french.ROLES.ROLE_CSECURITY = "Chef de la sécurité"
+french.ROLES.ROLE_MTFCOM = "Commandant MTF"
+french.ROLES.ROLE_SD = "Directeur du site"
+french.ROLES.ROLE_O5 = "Membre du conseil O5"
 
-english.ROLES.ROLE_SECURITY = "Agent de sécurité"
-english.ROLES.ROLE_MTFGUARD = "Garde MTF"
-english.ROLES.ROLE_MTFMEDIC = "Medic MTF"
-english.ROLES.ROLE_MTFL = "Lieutenant MTF"
-english.ROLES.ROLE_HAZMAT = "SCF MTF"
-english.ROLES.ROLE_MTFNTF = "MTF NTF"
-english.ROLES.ROLE_CSECURITY = "Chef de la sécurité"
-english.ROLES.ROLE_MTFCOM = "Commandant MTF"
-english.ROLES.ROLE_SD = "Directeur du site"
-english.ROLES.ROLE_O5 = "Membre du conseil O5"
+french.ROLES.ROLE_CHAOSSPY = "Espion CI"
+french.ROLES.ROLE_CHAOS = "Soldat CI
+french.ROLES.ROLE_CHAOSCOM = "Commandant CI"
+french.ROLES.ROLE_SPEC = "Spectateur"
 
-english.ROLES.ROLE_CHAOSSPY = "Espion CI"
-english.ROLES.ROLE_CHAOS = "Soldat CI"
-english.ROLES.ROLE_CHAOSCOM = "Commandant CI"
-english.ROLES.ROLE_SPEC = "Spectateur"
+french.credits_orig = "Créé par:"
+french.credits_edit = "Modifié et réparé par:"
+french.settings = "Paramètres"
+french.updateinfo = "Afficher les modifications après la mise à jour"
+french.done = "Ready"
+french.repe = "Ecrivez br_reset_intro pour montrer l'intro"
 
-english.credits_orig = "Créé par:"
-english.credits_edit = "Modifié et réparé par:"
-english.settings = "Paramètres"
-english.updateinfo = "Afficher les modifications après la mise à jour"
-english.done = "Ready"
-english.repe = "Ecrivez br_reset_intro pour montrer l'intro"
+french.author = "Auteur"
+french.helper = "Assistant"
+french.originator = "Collaborateur"
 
-english.author = "Auteur"
-english.helper = "Assistant"
-english.originator = "Collaborateur"
-
-english.updates = {
+french.updates = {
 "Anglais",
 "Notes de mise à jour",
 "Les notes de mise à jour de la version% s ne sont pas disponibles",
