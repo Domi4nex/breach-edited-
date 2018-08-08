@@ -135,20 +135,22 @@ lang.SCP_689 = {
 lang.SCP_714 = {
 	author = "danx91",
 	contact = "Regardez ce mode de jeu en atelier et recherchez des créateurs",
-	purpose = "Protect yourself",
-	instructions = "Hold to use",
+	purpose = "Protège toi
+",
+	instructions = "Tenir pour utiliser",
 	HUD = {
-		durability = "Durability:",
-		protect = "You are protected",
-		protend = "Your protection will end soon",
+		durability = "Durabilité:",
+		protect = "Tu es protégé
+",
+		protend = "Votre protection se terminera bientôt",
 	},
 }
 
 lang.SCP_8602 = {
 	author = "danx91",
 	contact = "Regardez ce mode de jeu en atelier et recherchez des créateurs",
-	purpose = "Kill",
-	instructions = "LMB to attack",
+	purpose = "Tuer",
+	instructions = "LMB pour attaquer",
 }
 
 lang.SCP_939 = {
